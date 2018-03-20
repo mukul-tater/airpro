@@ -1,5 +1,6 @@
 Our Aim is to analyze the impact of Pollution on Peoples Health and gain valuable insights from that.We Had Designed an Low Cost Real Time Air Quality Surveillance.Currently Government is Spending around 1.1 Crores for each of monitoring Station.This AirPro Kit is capable of recording and uploading the air quality data to an IOT Cloud.
 The Data is being used for Analytics. We had used the Power of IBM Watson Analytics.
+
 —Images in the Folder /Analytics—
 
 What Datasets we have..??
