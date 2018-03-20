@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AirPro Dash</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/circle.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span style="font-weight: 900;">AirPro</span>Dash</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Help/Support</a></li>
+            <li><a href="#">Settings</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chris A. <span class="caret"></span></a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 sidebar">
+          <ul class="sidebar-nav">
+                <li class="home active">
+                    <a href="#">
+                      <div class="nav-icons">
+                        <i class="fa fa-tachometer"></i>
+                      </div>
+                      Home
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10 title">
+          <h2><i class="fa fa-line-chart icon"></i> AirPro</h2>
+        </div>
+        <div class="col-md-10 main">
+           <h2>Current Location: <span id="">Jaipur</span></h2>
+          <div class="line-container">
+            <canvas id="line-chart"></canvas>
+          </div>
+
+          <div class="pie-container">
+            <canvas id="pie-chart"></canvas>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div id="pm25" >
+            <span>Pm 2.5</span>
+            <div class="slice">
+              <div class="bar" style="border: 0.08em solid #DE6262;"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div id="sm" >
+            <span>Smoke</span>
+            <div class="slice">
+              <div class="bar" style="border: 0.08em solid #70c67f;"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div id="c" >
+            <span>CO</span>
+            <div class="slice">
+              <div class="bar" style="border: 0.08em solid #DE6262;"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id = "nh" >
+            <span>NH3</span>
+            <div class="slice">
+              <div class="bar" style="border: 0.08em solid #5FABDF;"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <h2 class="sign"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></h2>
+        </div>
+
+        <div class="col-md-2">
+          <h2 class="sign"><i class="fa fa-check" aria-hidden="true"></i></h2>
+        </div>
+
+        <div class="col-md-2">
+          <h2 class="sign"><i class="fa fa-times" aria-hidden="true"></i></h2>
+        </div>
+
+        <div class="col-md-2">
+          <h2 class="sign"><i class="fa fa-check" aria-hidden="true"></i></h2>
+        </div>
+
+        <div class="col-md-10" id="pm">
+          <h2 class="title">Pm 2.5 Hazards</h2>
+        </div>
+        <div class="col-md-10" id="smoke">
+          <h2 class="title">Smoke Hazards</h>
+        </div>
+
+        <div class="col-md-10" id="co">
+          <h2 class="title">Carbon Mono Oxide Hazards</h2>
+        </div>
+
+        <div class="col-md-10" id="nh3">
+          <h2 class="title">NH3 Hazards</h2>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/jquery-3.2.1.slim.min.js" charset="utf-8"></script>
+    <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="assets/js/functions.js" charset="utf-8"></script>
+    <script>
+    let reqD= ()=>{
+      let url = "http://api.thingspeak.com/channels/231438/feed/last.json" ;
+      fetch(url).then(resp=>resp.json()).then(data=>{
+        console.log(data);
+        let pm25 = document.getElementById('pm25');
+        let sm = document.getElementById('sm');
+        let c = document.getElementById('c');
+        let nh = document.getElementById('nh');
+        pm25.className="c100 p" + Math.round(data.field4/2.5) +  " pm";
+        sm.className="c100 p" + Math.round(data.field1) +" smoke";
+        c.className="c100 p" + Math.round(data.field3) +" co";
+        nh.className="c100 p" + Math.round(data.field2) +" nh3";
+      }).catch(err=>console.log(err));
+    }
+    reqD();
+    setInterval(reqD,30000);
+    </script>
+    </body>
+</html>
