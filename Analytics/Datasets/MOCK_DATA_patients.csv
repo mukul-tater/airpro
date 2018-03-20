@@ -1,0 +1,101 @@
+key,gender,age,Disease,Symptomps,drugs,location.lat,location.long,location.pcode
+1,F,39,[{}],[{}],Dextromethorphan Hydrobromide and Doxylamine succinate,48.9059421,17.4598869,696 72
+2,F,47,"[{},{}]","[{},{},{},{}]",Elm American,-31.4834373,-64.2145666,5120
+3,M,24,[{}],"[{},{},{},{}]",docusate sodium and sennosides,34.058401,107.319116,
+4,F,47,"[{},{},{},{},{}]","[{},{},{},{}]",Primidone,55.2884444,23.9749999,57005
+5,F,61,[{}],[{}],"Titanium Dioxide, Octinoxate",38.143169,117.497651,
+6,M,44,"[{},{},{},{}]","[{},{}]",BUDESONIDE,52.2454069,16.8470545,62-050
+7,M,69,"[{},{},{}]","[{},{},{},{}]",Sodium Fluoride,49.7961202,6.2871406,L-7681
+8,M,10,"[{},{},{},{}]","[{},{},{}]","ASPIRIN, CITRIC ACID, SODIUM BICARBONATE",7.516342,123.345085,7032
+9,F,24,"[{},{}]","[{},{}]",Acetaminophen,49.8398148,16.9143454,789 01
+10,M,73,"[{},{},{},{},{}]",[{}],"Sodium Fluoride, Vitamin A Palmitate, Ascorbic Acid, Cholecalciferol, Alpha-Tocopherol Acetate, Thiamine Mononitrate, Riboflavin, Niacinamide, Pyridoxine Hydrochloride, Folic Acid and cyanocobalamin",57.8004642,13.4349336,523 38
+11,F,13,"[{},{},{},{}]","[{},{},{}]",ampicillin sodium and sulbactam sodium,34.888685,111.607282,
+12,F,16,"[{},{}]","[{},{},{},{},{}]",clindamycin phosphate,22.285839,114.152999,
+13,F,58,"[{},{},{}]","[{},{},{},{}]",Sumatriptan Succinate,44.387458,-69.586443,
+14,M,57,"[{},{}]",[{}],atenolol and chlorthalidone,-37.0340769,-73.1404838,
+15,F,14,"[{},{},{},{},{}]",[{}],California Mugwort,19.4458447,-99.1497664,81806
+16,M,87,[{}],"[{},{}]","ISOLEUCINE, LEUCINE, LYSINE ACETATE, METHIONINE, PHENYLALANINE, THREONINE, TRYPTOPHAN, VALINE, ALANINE, ARGININE, ASPARTIC ACID, GLUTAMIC ACID, GLYCINE, HISTIDINE, PROLINE, SERINE, TAURINE, and TYROSINE",40.3833356,-8.471242,3050-015
+17,F,81,"[{},{}]","[{},{},{}]",Naproxen,45.5502218,95.8545767,
+18,F,19,"[{},{},{},{}]","[{},{},{},{},{}]",Alcohol,45.3663041,40.1674073,625999
+19,M,61,"[{},{},{},{},{}]","[{},{},{},{},{}]",Benzalkonium Chloride,20.3278427,-89.6440716,30807
+20,F,78,[{}],"[{},{},{},{},{}]","aluminum hydroxide, magnesium hydroxide, simethicone",37.499972,105.196902,
+21,F,29,"[{},{},{},{},{}]","[{},{},{}]",Glimepiride,30.694308,104.012972,
+22,M,26,"[{},{},{}]","[{},{},{},{}]",Hackberry,9.8759581,-84.0375168,10307
+23,F,24,"[{},{},{},{},{}]",[{}],"Sulfacetamide Sodium, Sulfur",6.6650328,159.7540106,
+24,M,10,[{}],[{}],TRIBASIC CALCIUM PHOSPHATE,28.220406,121.038129,
+25,F,35,"[{},{},{},{}]",[{}],erlotinib hydrochloride,50.643436,21.888524,39-410
+26,F,17,"[{},{},{},{},{}]",[{}],Bethanechol Chloride,-13.838889,-74.311944,
+27,F,53,[{}],"[{},{},{}]",Metronidazole,45.161017,1.663862,42304 CEDEX
+28,F,57,"[{},{},{},{},{}]",[{}],Nicotine Polacrilex,30.958308,112.194147,
+29,F,67,"[{},{}]",[{}],Diltiazem Hydrochloride,48.7277622,100.7724281,
+30,F,81,"[{},{}]","[{},{},{}]",modafinil,37.8509191,21.2543651,
+31,F,57,"[{},{},{},{}]","[{},{},{},{}]",Zinc Pyrithione,28.454862,117.943433,
+32,F,40,"[{},{},{},{}]","[{},{}]",Esomeprazole magnesium,53.2544872,14.4927021,74-101
+33,F,28,"[{},{}]",[{}],amitriptyline hydrochloride,-32.943528,24.6549185,6265
+34,M,81,"[{},{},{},{}]","[{},{}]",Levofloxacin,30.291745,122.202207,
+35,M,73,"[{},{},{},{}]","[{},{},{},{},{}]",Amoxicillin,35.7418174,139.3234464,197-0011
+36,M,16,[{}],"[{},{},{}]",Octinoxate,33.3527276,-7.5788975,
+37,M,59,"[{},{},{},{},{}]","[{},{},{},{},{}]",acetaminophen,42.7333428,-87.8255014,53405
+38,F,53,"[{},{},{},{}]",[{}],Lithium Carbonate,9.0578504,-72.233418,
+39,F,67,"[{},{},{},{}]","[{},{},{},{}]",zonisamide,5.990033,120.953061,7407
+40,F,27,"[{},{},{},{},{}]",[{}],Oxygen,48.5184268,24.8858948,
+41,F,78,[{}],"[{},{},{}]",Morphine Sulfate,58.6050084,16.1608259,602 14
+42,F,70,"[{},{}]","[{},{},{},{},{}]",Famotidine,37.039991,115.667208,
+43,M,67,"[{},{},{},{},{}]","[{},{},{},{}]",Titanium Dioxide and Octinoxate,58.261515,12.2964905,461 63
+44,M,78,[{}],"[{},{}]",PETROLATUM,49.6927765,75.5895888,
+45,F,45,"[{},{},{},{}]",[{}],Promethazine hydrochloride and phenylephrine hydrochloride,15.1163904,120.0624898,3110
+46,M,46,"[{},{}]","[{},{},{},{},{}]","sodium bicarbonate, potassium bicarbonate and sodium citrate",-3.9020493,135.7900209,
+47,F,43,[{}],"[{},{},{}]",Sodium chloride,52.1861944,5.3099089,3764
+48,F,46,"[{},{},{},{}]","[{},{}]",FLUPHENAZINE HYDROCHLORIDE,41.86624,125.582116,
+49,M,85,"[{},{},{},{},{}]","[{},{},{},{},{}]","Octinoxate, Octocrylene, Oxybenzone, and Zinc Oxide",46.0759677,18.2320497,7621
+50,M,51,"[{},{},{}]","[{},{},{},{}]",SALICYLIC ACID,28.5459092,68.212618,49090
+51,F,37,"[{},{}]","[{},{}]",Lidocaine Hydrochloride,50.66648,-120.3192,H9P
+52,M,43,"[{},{},{}]",[{}],Ibuprofen,48.890054,2.2372792,92056 CEDEX
+53,M,90,[{}],"[{},{},{},{},{}]",Cupric Sulfate,39.1425,126.09611,
+54,F,89,"[{},{},{}]","[{},{},{},{}]",Ibuprofen,38.5023428,125.7516069,
+55,M,85,"[{},{},{}]","[{},{},{},{}]","GABAPENTIN, .GAMMA.-AMINOBUTYRIC ACID",43.4462218,5.2254137,13729 CEDEX
+56,F,67,"[{},{}]","[{},{},{},{}]","Horse chestnut, potassium hydrate, witch hazel, cramp bark",44.9951298,-93.4352207,55441
+57,F,54,"[{},{},{},{}]","[{},{}]",Promethazine Hydrochloride,50.8105808,27.3166945,
+58,F,26,"[{},{},{},{},{}]","[{},{},{},{},{}]","Bacitracin, Neomycin, Polymyxin B, Pramoxine HCl",-7.311248,106.4786051,
+59,M,81,[{}],"[{},{},{}]",dextroamphetamine sulfate,25.0329694,121.5654177,
+60,M,10,[{}],"[{},{},{},{},{}]","Arsenic Trioxide, Gold, Oyster Shell Calcium Carbonate, Crude, Calcium Fluoride, Hydrofluoric Acid, Hekla Lava, Toxicodendron Pubescens Leaf, Silicon Dioxide, Delphinium Staphisagria Seed, Comfrey Leaf",30.181472,118.512944,
+61,M,62,"[{},{}]",[{}],TITANIUM DIOXIDE,22.483182,113.916509,
+62,M,45,[{}],"[{},{},{},{}]",Levothyroxine Sodium,54.4225141,27.8338499,
+63,F,87,"[{},{},{}]","[{},{},{},{},{}]",fluocinonide,-8.5361861,115.1444487,
+64,F,74,"[{},{}]","[{},{}]",Doxycycline Hyclate,27.254639,102.555028,
+65,F,74,"[{},{},{}]","[{},{}]",ENALAPRIL MALEATE,27.85512,120.6604815,
+66,M,33,"[{},{}]","[{},{},{},{},{}]",Ibuprofen,-6.9445784,107.5179721,
+67,M,59,"[{},{}]","[{},{},{},{},{}]",Diphenhydramine HCl,17.292049,96.5756695,
+68,M,86,"[{},{},{}]","[{},{},{},{}]",aspirin,57.0994342,24.685557,
+69,F,31,"[{},{},{},{},{}]","[{},{}]",rOPINIRole,35.2219554,-80.8328724,28235
+70,F,21,[{}],"[{},{},{},{},{}]",Aluminum Zirconium Octachlorohydrex Gly,39.816173,77.37263,
+71,F,22,"[{},{},{},{}]","[{},{},{},{},{}]",Octinoxate,-32.9589969,-68.8502434,3156
+72,F,63,"[{},{},{}]","[{},{},{},{}]",Pyrithione Zinc,22.9290295,-82.3912892,
+73,F,20,"[{},{},{},{}]","[{},{},{}]",fraxinus americana pollen,47.0765556,15.5109999,8047
+74,M,60,"[{},{},{},{},{}]",[{}],Minoxidil,-2.7201714,115.2719048,
+75,F,16,"[{},{},{},{}]","[{},{},{},{}]",Hyoscyamine Sulfate,54.236292,20.1285899,14-520
+76,M,46,"[{},{},{},{},{}]","[{},{},{}]",ALCOHOL,31.491169,120.31191,
+77,M,53,"[{},{},{}]","[{},{},{},{},{}]","Acetaminophen, Dextromethorphan HBr, Doxylamine Succinate",50.4009139,25.7590674,
+78,F,34,"[{},{},{},{}]","[{},{},{},{},{}]",Docusate Sodium,5.695633,-76.649812,270009
+79,M,50,"[{},{},{}]","[{},{},{},{},{}]","ZINC OXIDE, TITANIUM DIOXIDE",6.8883341,-6.4396888,
+80,F,75,"[{},{},{}]","[{},{},{}]",Menthol and Echinacea,28.2068263,68.3682111,79050
+81,F,36,"[{},{},{},{}]","[{},{}]",Salicylic Acid,29.183761,96.85942,
+82,M,51,"[{},{},{},{},{}]","[{},{},{},{}]",ALCOHOL,6.0312787,7.5626411,
+83,F,13,"[{},{},{},{},{}]","[{},{},{},{}]",Povidone-iodine,44.5590244,4.7447501,26209 CEDEX
+84,M,36,"[{},{},{},{}]","[{},{},{}]",HUMAN RHO(D) IMMUNE GLOBULIN,39.9721425,69.8597406,
+85,M,28,"[{},{},{},{},{}]","[{},{}]",Isopropyl Alcohol,43.1283145,5.9294606,83087 CEDEX 9
+86,F,24,"[{},{},{}]",[{}],Guaifenesin,49.8861287,20.608396,32-864
+87,M,37,"[{},{}]","[{},{},{}]","OCTINOXATE, OXYBENZONE",12.8764967,11.0315823,
+88,M,43,"[{},{},{},{},{}]",[{}],Tall Ragweed,-33.3822982,-56.5275506,
+89,M,49,"[{},{}]","[{},{},{},{}]",Ash Arizona,59.4744985,18.3007988,184 23
+90,F,57,"[{},{},{},{}]","[{},{},{},{},{}]","Acetaminophen, Chlorpheniramine maleate, Phenylephrine HCl",41.65041,59.9164,
+91,M,69,"[{},{},{},{},{}]","[{},{},{},{}]",Acetaminophen,30.315892,120.218758,
+92,F,18,"[{},{},{},{},{}]","[{},{},{},{}]",Aspirin and Caffeine,-13.6332,-72.232262,
+93,M,58,[{}],"[{},{},{},{},{}]",MECLIZINE HYDROCHLORIDE TABLETS,59.3138173,14.4937714,691 78
+94,F,54,"[{},{},{},{},{}]","[{},{}]",Guaifenesin,30.069954,103.109184,
+95,M,90,"[{},{},{},{},{}]","[{},{},{}]",Avobenzone and Octinoxate,25.112046,99.161761,
+96,F,26,"[{},{},{},{},{}]",[{}],Alcohol,10.5703809,-62.8294091,
+97,F,69,"[{},{},{}]","[{},{},{},{},{}]",glipizide,-14.2234,-72.194618,
+98,M,68,"[{},{}]","[{},{}]",Ibuprofen,-7.42566,108.14323,
+99,F,38,"[{},{},{}]","[{},{},{},{}]",Warfarin Sodium,55.7942138,37.4827996,452034
+100,M,60,[{}],"[{},{}]","Zinc Oxide, Octinoxate",4.9026627,97.7878579,
